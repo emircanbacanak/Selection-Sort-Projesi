@@ -1,0 +1,16 @@
+[16,21,11,8,12,22] -> Merge Sort
+1-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Bölme (Divide):
+[16, 21, 11], [8, 12, 22]
+
+Sıralama (Sort):
+[16, 21, 11] -> [11, 16, 21]
+[8, 12, 22] -> [8, 12, 22]
+
+Birleştirme (Merge):
+[11, 16, 21], [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+
+Bu adımlar sonucunda sıralanmış dizi şu şekilde olur: [8, 11, 12, 16, 21, 22]
+
+2-Big-O Notasyonu: O(n log n)
